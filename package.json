@@ -1,0 +1,19 @@
+{
+  "name": "scarpet-ls",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Federico Carboni",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.4",
+    "mocha": "^10.2.0",
+    "typescript": "^5.3.3"
+  }
+}
