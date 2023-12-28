@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "incremental": true,
-    "composite": true,
-    "target": "es2016",
-    "module": "esnext",
-    "outDir": "build",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": true,
     "strict": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
