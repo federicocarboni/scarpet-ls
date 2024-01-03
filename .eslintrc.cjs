@@ -10,12 +10,54 @@ const config = {
     globals: {Set: 'readonly', Map: 'readonly'},
     plugins: ['eslint-plugin-import'],
     rules: {
-        'import/no-default-export': 'error',
-        'import/extensions': ['error', {js: 'always'}],
+        strict: ['error', 'global'],
         // use typescript for this
         'no-unused-vars': 'off',
         'no-undef': 'off',
+        'no-undefined': 'error',
+        'dot-notation': 'error',
+        eqeqeq: 'error',
+        'no-caller': 'error',
+        'no-constant-condition': ['error', {checkLoops: false}],
+        'no-eval': 'error',
+        'no-extra-bind': 'error',
+        'no-new-func': 'error',
+        'no-new-wrappers': 'error',
+        'no-return-await': 'error',
+        'no-restricted-globals': [
+            'error',
+            {name: 'setTimeout'},
+            {name: 'clearTimeout'},
+            {name: 'setInterval'},
+            {name: 'clearInterval'},
+            {name: 'setImmediate'},
+            {name: 'clearImmediate'},
+        ],
+        'import/no-default-export': 'error',
+        'import/extensions': ['error', {js: 'always'}],
+        'import/no-amd': 'error',
+        'import/no-commonjs': 'error',
     },
+    overrides: [
+        {
+            files: ['**/*.cjs'],
+            parserOptions: {
+                node: true,
+                sourceType: 'script',
+            },
+            rules: {
+                'import/extensions': 'off',
+                'import/no-commonjs': 'off',
+            },
+        },
+        {
+            files: ['test/**/*.js'],
+            parserOptions: {
+                node: true,
+                mocha: true,
+            },
+        },
+    ],
 };
 
 module.exports = config;
