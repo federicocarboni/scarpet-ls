@@ -5,6 +5,7 @@ const config = {
     singleQuote: true,
     arrowParens: 'always',
     bracketSpacing: false,
+    plugins: ['prettier-plugin-jsdoc'],
 };
 
 export default config;
