@@ -73,10 +73,9 @@ function getNumberHover(markdown, node) {
     }
     if (node.value.scale === 0n) {
         contents +=
-            ' (0x' + node.value.value.toString(16).toUpperCase() + ')\n';
+            ' (0x' + node.value.value.toString(16).toUpperCase() + ')';
     }
-    if (markdown) contents += '```';
-    console.debug(JSON.stringify(contents));
+    if (markdown) contents += '\n```';
     return {
         contents: {
             kind: markdown ? MarkupKind.Markdown : MarkupKind.PlainText,
