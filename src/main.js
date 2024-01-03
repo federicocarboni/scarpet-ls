@@ -100,7 +100,6 @@ connection.onDefinition(({position, textDocument}) => {
     const offset = document.offsetAt(position);
     const node = getNodeAt(root, offset);
     if (node === void 0) return void 0;
-    console.debug(JSON.stringify(node));
     const definition = getDefinition(textDocument.uri, root, node);
     if (definition === void 0) return void 0;
     return [definition];
