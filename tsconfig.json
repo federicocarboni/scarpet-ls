@@ -1,18 +1,26 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "node",
+    "module": "NodeNext",
     "allowJs": true,
     "checkJs": true,
+    "lib": [
+      "ES2016",
+      "ES2020.BigInt"
+    ],
+    "noEmit": true,
+    "moduleResolution": "NodeNext",
+    "rootDir": "./src",
+    // stripInternal doesn't work for non .ts files
+    "stripInternal": true,
+    "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "noImplicitAny": true,
     "noImplicitThis": true,
     "useUnknownInCatchVariables": true,
-    "alwaysStrict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "exactOptionalPropertyTypes": true,
-    "skipLibCheck": true
-  }
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+  },
+  "include": ["src"],
 }
