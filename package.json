@@ -3,7 +3,10 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "src/main.js",
+  "main": "./lib/main.js",
+  "bin": {
+    "scarpet-ls": "./bin/scarpet-ls"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node build/main.js",

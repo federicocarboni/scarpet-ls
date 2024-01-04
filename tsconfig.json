@@ -10,7 +10,7 @@
     ],
     "noEmit": true,
     "moduleResolution": "NodeNext",
-    "rootDir": "./src",
+    "rootDir": "lib",
     // stripInternal doesn't work for non .ts files
     "stripInternal": true,
     "forceConsistentCasingInFileNames": true,
@@ -22,5 +22,5 @@
     "noImplicitReturns": true,
     "skipLibCheck": true,
   },
-  "include": ["src"],
+  "include": ["lib"],
 }
