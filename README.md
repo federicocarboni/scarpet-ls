@@ -12,9 +12,9 @@ Most of the heavy lifting is done in [FedericoCarboni/scarpet-parser][4].
 
 ## Features
 
-- Documentation on hover for variables and functions.
-- Go-to-definition for variables and functions.
-- Autocomplete for local variables and functions.
+-   Documentation on hover for variables and functions.
+-   Go-to-definition for variables and functions.
+-   Autocomplete for local variables and functions.
 
 ## Limitations
 
@@ -45,13 +45,13 @@ Different editors configure LSPs differently, here is an example user config for
 
 ```json
 {
-	"servers": {
-		"scarpet": {
+    "servers": {
+        "scarpet": {
             "command": ["scarpet-ls", "--stdio"],
             "url": "https://github.com/FedericoCarboni/scarpet-ls",
             "highlightingModeRegex": "^Scarpet$"
         }
-	}
+    }
 }
 ```
 
