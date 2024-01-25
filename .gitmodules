@@ -1,0 +1,3 @@
+[submodule "scarpet-docs"]
+	path = scarpet-docs
+	url = https://github.com/FedericoCarboni/scarpet-docs.git
