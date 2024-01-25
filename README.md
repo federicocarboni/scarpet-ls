@@ -12,16 +12,16 @@ Most of the heavy lifting is done in [FedericoCarboni/scarpet-parser][4].
 
 ## Features
 
--   Documentation on hover for variables and functions.
+-   Documentation on hover for variables and functions including built-ins.
 -   Go-to-definition for variables and functions.
--   Autocomplete for local variables and functions.
+-   Autocomplete for local and built-in variables and functions.
 
 ## Limitations
 
 Error reporting is still not very accurate and autocomplete depends on it in
 some places, making autocomplete not work sometimes.
 
-Autocomplete and documentation on hover do not support built-in functions (yet).
+Not all built-in functions can be autocompleted or show documentation.
 
 Most of the language server protocol is not implemented, e.g. formatter,
 signature help...
