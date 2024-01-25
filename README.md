@@ -23,6 +23,9 @@ some places, making autocomplete not work sometimes.
 
 Not all built-in functions can be autocompleted or show documentation.
 
+Global variables are handled somewhat inconsistently and will not autocomplete
+most of the time.
+
 Most of the language server protocol is not implemented, e.g. formatter,
 signature help...
 
