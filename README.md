@@ -13,7 +13,7 @@ Documentation is provided by [FedericoCarboni/scarpet-docs]
 
 ## Features
 
-- [x] Documentation on hover for builtin functions and user-defined functions.
+- [x] Documentation and signatures on hover for builtin functions and user-defined functions.
 - [x] Autocomplete for builtin functions, constants and event callbacks.
 - [x] Autocomplete for user-defined functions and variables.
 - [x] Go-to definition for user-defined functions and variables.
@@ -29,7 +29,9 @@ Documentation is provided by [FedericoCarboni/scarpet-docs]
 Error reporting is still not very accurate and autocomplete depends on it in
 some places, making autocomplete not work sometimes.
 
-Not all built-in functions can be autocompleted or show documentation.
+Not all built-in functions can be autocompleted or show documentation. Shown
+signatures are sometimes incorrect (please contribute to
+[FedericoCarboni/scarpet-docs] to fix those as you find them).
 
 Global variables are handled somewhat inconsistently and will not autocomplete
 some of the time.
@@ -76,3 +78,4 @@ If you use Kate you might also need the [syntax highlighting definitions][5].
 [4]: https://github.com/FedericoCarboni/scarpet-parser
 [5]: https://github.com/FedericoCarboni/kate-scarpet
 [FedericoCarboni/scarpet-docs]: https://github.com/FedericoCarboni/scarpet-docs
+[FedericoCarboni/vscode-scarpet]: https://github.com/FedericoCarboni/vscode-scarpet
