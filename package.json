@@ -8,28 +8,24 @@
     "scarpet-ls": "./bin/scarpet-ls"
   },
   "scripts": {
-    "build": "tsc && rollup -c",
+    "build": "esbuild lib/main.js --bundle --outfile=dist/main.js --external:vscode-languageserver --external:vscode-languageserver-textdocument --format=esm --platform=node --target=node16",
     "start": "node build/main.js",
     "test": "mocha",
     "format": "prettier --write \"{lib,test}/*.js\"",
-    "lint": "eslint --fix **/*.js"
+    "lint": "tsc && eslint --fix **/*.js"
   },
   "keywords": [],
   "author": "Federico Carboni",
   "license": "MIT",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
     "@types/mocha": "^10.0.6",
     "@types/node": "^20.11.5",
+    "esbuild": "^0.20.0",
     "eslint": "^8.56.0",
     "eslint-plugin-import": "^2.29.1",
-    "gray-matter": "^4.0.3",
     "mocha": "^10.2.0",
     "prettier": "^3.2.4",
     "prettier-plugin-jsdoc": "^1.3.0",
-    "rollup": "^4.9.5",
     "typescript": "^5.3.3"
   },
   "dependencies": {
