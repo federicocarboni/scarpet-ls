@@ -18,6 +18,9 @@ Documentation is provided by [FedericoCarboni/scarpet-docs]
 - [x] Autocomplete for user-defined functions and variables.
 - [x] Go-to definition for user-defined functions and variables.
 - [x] Diagnostics for invalid Scarpet code (with limitations).
+
+## TODOs
+
 - [ ] Rename
 - [ ] Linting
 - [ ] Semantic highlighting
