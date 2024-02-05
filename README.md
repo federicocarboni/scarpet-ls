@@ -18,11 +18,13 @@ Documentation is provided by [FedericoCarboni/scarpet-docs]
 - [x] Autocomplete for user-defined functions and variables.
 - [x] Go-to definition for user-defined functions and variables.
 - [x] Diagnostics for invalid Scarpet code (with limitations).
+- [ ] Rename
 - [ ] Linting
 - [ ] Semantic highlighting
 - [ ] Formatter
 - [ ] Inlay hints
 - [ ] Signature help
+- [ ] Refactor
 
 ### Known Issues
 
@@ -45,13 +47,13 @@ If you use VSCode use [FedericoCarboni/vscode-scarpet].
 
 If you want to try it out and you're not afraid of bugs:
 
-```bash
+```sh
 npm install -g FedericoCarboni/scarpet-ls
 ```
 
 ### Running
 
-```bash
+```sh
 scarpet-ls --stdio
 ```
 
