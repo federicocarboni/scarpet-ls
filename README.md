@@ -18,8 +18,8 @@ Documentation is provided by [FedericoCarboni/scarpet-docs]
 - [x] Autocomplete for user-defined functions and variables (current file only).
 - [x] Go-to definition for user-defined functions and variables (current file only).
 - [x] Diagnostics for invalid Scarpet code (with limitations).
-- [x] Rename for variables (current file only).
-- [x] Rename for functions (current file only).
+- [x] Rename for variables (current file only, `var()` not supported).
+- [x] Rename for functions (current file only, `var()` not supported).
 
 ## TODOs
 
