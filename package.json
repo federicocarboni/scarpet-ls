@@ -12,7 +12,7 @@
     "start": "node build/main.js",
     "test": "mocha",
     "format": "prettier --write \"{lib,test}/*.js\"",
-    "lint": "tsc && eslint --fix **/*.js"
+    "lint": "tsc && eslint --fix \"lib/*.js\""
   },
   "keywords": [],
   "author": "Federico Carboni",

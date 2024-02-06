@@ -7,7 +7,7 @@ settings:
 dependencies:
   scarpet-parser:
     specifier: github:FedericoCarboni/scarpet-parser
-    version: github.com/FedericoCarboni/scarpet-parser/431c692c36f9978e86aff9f5e706addf196a7de6
+    version: github.com/FedericoCarboni/scarpet-parser/f7ce98095d98c9e9945b8fd58665e197d31dca24
   vscode-languageserver:
     specifier: ^9.0.1
     version: 9.0.1
@@ -2266,8 +2266,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/FedericoCarboni/scarpet-parser/431c692c36f9978e86aff9f5e706addf196a7de6:
-    resolution: {tarball: https://codeload.github.com/FedericoCarboni/scarpet-parser/tar.gz/431c692c36f9978e86aff9f5e706addf196a7de6}
+  github.com/FedericoCarboni/scarpet-parser/f7ce98095d98c9e9945b8fd58665e197d31dca24:
+    resolution: {tarball: https://codeload.github.com/FedericoCarboni/scarpet-parser/tar.gz/f7ce98095d98c9e9945b8fd58665e197d31dca24}
     name: scarpet-parser
     version: 0.1.0
     requiresBuild: true
