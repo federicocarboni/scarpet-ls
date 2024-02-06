@@ -15,19 +15,19 @@ Documentation is provided by [FedericoCarboni/scarpet-docs]
 
 - [x] Documentation and signatures on hover for builtin functions and user-defined functions.
 - [x] Autocomplete for builtin functions, constants and event callbacks.
-- [x] Autocomplete for user-defined functions and variables.
-- [x] Go-to definition for user-defined functions and variables.
+- [x] Autocomplete for user-defined functions and variables (current file only).
+- [x] Go-to definition for user-defined functions and variables (current file only).
 - [x] Diagnostics for invalid Scarpet code (with limitations).
+- [x] Rename for variables (current file only).
 
 ## TODOs
 
-- [ ] Rename
+- [ ] Rename for functions
 - [ ] Linting
 - [ ] Semantic highlighting
 - [ ] Formatter
 - [ ] Inlay hints
 - [ ] Signature help
-- [ ] Refactor
 
 ### Known Issues
 
