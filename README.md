@@ -19,14 +19,14 @@ Documentation is provided by [FedericoCarboni/scarpet-docs]
 - [x] Go-to definition for user-defined functions and variables (current file only).
 - [x] Diagnostics for invalid Scarpet code (with limitations).
 - [x] Rename for variables (current file only).
+- [x] Rename for functions (current file only).
 
 ## TODOs
 
-- [ ] Rename for functions
-- [ ] Linting
-- [ ] Semantic highlighting
 - [ ] Formatter
 - [ ] Inlay hints
+- [ ] Linting
+- [ ] Semantic highlighting
 - [ ] Signature help
 
 ### Known Issues
