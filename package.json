@@ -5,7 +5,7 @@
   "description": "",
   "main": "./lib/main.js",
   "bin": {
-    "scarpet-ls": "./lib/main.js"
+    "scarpet-ls": "./bin/scarpet-ls"
   },
   "scripts": {
     "start": "node build/main.js",
