@@ -5,8 +5,7 @@
     "allowJs": true,
     "checkJs": true,
     "lib": [
-      "ES2016",
-      "ES2020.BigInt"
+      "ES2020"
     ],
     "noEmit": true,
     "moduleResolution": "NodeNext",
