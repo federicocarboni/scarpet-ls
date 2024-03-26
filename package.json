@@ -1,5 +1,5 @@
 {
-  "name": "scarpet-ls",
+  "name": "@federicocarboni/scarpet-ls",
   "type": "module",
   "version": "1.0.0",
   "description": "",
@@ -14,18 +14,19 @@
     "lint": "tsc && eslint --fix \"lib/*.js\""
   },
   "keywords": [],
+  "files": ["lib/**", "bin/**"],
   "author": "Federico Carboni",
   "license": "MIT",
   "devDependencies": {
     "@types/mocha": "^10.0.6",
-    "@types/node": "^20.11.24",
-    "esbuild": "^0.20.1",
+    "@types/node": "^20.11.30",
+    "esbuild": "^0.20.2",
     "eslint": "^8.57.0",
     "eslint-plugin-import": "^2.29.1",
     "mocha": "^10.3.0",
     "prettier": "^3.2.5",
     "prettier-plugin-jsdoc": "^1.3.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.3"
   },
   "dependencies": {
     "@federicocarboni/scarpet-docs": "0.1.1-dev",
