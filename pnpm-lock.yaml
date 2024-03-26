@@ -8,9 +8,9 @@ dependencies:
   '@federicocarboni/scarpet-docs':
     specifier: 0.1.1-dev
     version: 0.1.1-dev
-  scarpet-parser:
-    specifier: github:FedericoCarboni/scarpet-parser
-    version: github.com/FedericoCarboni/scarpet-parser/142e93ae34713664b2fc9e2d6c66a9cd8dbbebad
+  '@federicocarboni/scarpet-parser':
+    specifier: 0.1.0
+    version: 0.1.0
   vscode-languageserver:
     specifier: ^9.0.1
     version: 9.0.1
@@ -300,6 +300,10 @@ packages:
 
   /@federicocarboni/scarpet-docs@0.1.1-dev:
     resolution: {integrity: sha512-cd6qJaGzM/iVr/kK8aByWdzPvtCzFVEEQDpL2p2MuEfbtiKIr+y/kSvzsT+wedBMgTdbq739VE6X61DxtMNrjw==, tarball: https://npm.pkg.github.com/download/@federicocarboni/scarpet-docs/0.1.1-dev/74b3dffe9d6ad96934b42824672bc2efe52066a4}
+    dev: false
+
+  /@federicocarboni/scarpet-parser@0.1.0:
+    resolution: {integrity: sha512-iIKR6riMa4tWZvo55yRdapExkJp0HHfiR/CzlIfzCO8eBj6PArt7tTtJAbYaGsrxfm0VcXY5q8LgaDf8+HLN+A==, tarball: https://npm.pkg.github.com/download/@federicocarboni/scarpet-parser/0.1.0/5ac067ecbccefddc09e151ff8c2c18364ea5d7c0}
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
@@ -2322,10 +2326,3 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
-
-  github.com/FedericoCarboni/scarpet-parser/142e93ae34713664b2fc9e2d6c66a9cd8dbbebad:
-    resolution: {tarball: https://codeload.github.com/FedericoCarboni/scarpet-parser/tar.gz/142e93ae34713664b2fc9e2d6c66a9cd8dbbebad}
-    name: scarpet-parser
-    version: 0.1.0
-    requiresBuild: true
-    dev: false

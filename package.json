@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@federicocarboni/scarpet-docs": "0.1.1-dev",
-    "scarpet-parser": "github:FedericoCarboni/scarpet-parser",
+    "@federicocarboni/scarpet-parser": "0.1.0",
     "vscode-languageserver": "^9.0.1",
     "vscode-languageserver-textdocument": "^1.0.11"
   }
